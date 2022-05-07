@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=i\ j
+comment0.target=Site(int,\ int)
+comment1.params=
+comment1.target=int\ i()
+comment2.params=
+comment2.target=int\ j()
+comment3.params=w
+comment3.target=int\ manhattanTo(Site)
+comment4.params=w
+comment4.target=boolean\ equals(Site)
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

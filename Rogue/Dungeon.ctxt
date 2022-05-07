@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=board
+comment0.target=Dungeon(char[][])
+comment1.params=
+comment1.target=int\ size()
+comment2.params=v
+comment2.target=boolean\ isCorridor(Site)
+comment3.params=v
+comment3.target=boolean\ isRoom(Site)
+comment4.params=v
+comment4.target=boolean\ isWall(Site)
+comment5.params=v\ w
+comment5.target=boolean\ isLegalMove(Site,\ Site)
+comment6.params=
+comment6.target=Site\ getRandomSite()
+numComments=7

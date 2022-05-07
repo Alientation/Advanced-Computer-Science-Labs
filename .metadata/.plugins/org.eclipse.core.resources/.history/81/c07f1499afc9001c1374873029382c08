@@ -1,0 +1,5 @@
+public interface ReactiveAnimation extends Animation{
+	//future use Entity as super class
+	public abstract void update(Monster monster);
+	public abstract void update(Avatar avatar);
+}

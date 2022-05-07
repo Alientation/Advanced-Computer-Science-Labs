@@ -1,0 +1,16 @@
+
+public class Test {
+	public static void main(String[] args) {
+		int max = 400;
+		for (int a = 1; a < max; a++) {
+			for (int b = 1; b < max; b++) {
+				for (int c = 1; c < max; c++) {
+					if (a*(a+c)*(a+b) + b*(b+c)*(a+b) + c*(a+c)*(b+c) == 4 * (a+b) * (b+c) * (a+c)) {
+						System.out.println("(a,b,c) >>> (" + a + "," + b + "," + c + ")");
+						break;
+					}
+				}
+			}
+		}
+	}
+}

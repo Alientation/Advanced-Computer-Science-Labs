@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=in
+comment0.target=Game(In)
+comment1.params=
+comment1.target=Site\ getMonsterSite()
+comment2.params=
+comment2.target=Site\ getRogueSite()
+comment3.params=
+comment3.target=Dungeon\ getDungeon()
+comment4.params=
+comment4.target=void\ randomlyPlaceRogue()
+comment5.params=
+comment5.target=void\ play()
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+numComments=8

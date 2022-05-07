@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;replacement&apos; in &apos;MyBST.delete(...)&apos; to &apos;prevReplacement&apos;&#x0D;&#x0A;- Original project: &apos;Lab13_MyBST&apos;&#x0D;&#x0A;- Original element: &apos;MyBST.delete(T, BSTNode, BSTNode).replacement&apos;&#x0D;&#x0A;- Renamed element: &apos;replacement&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;replacement&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{MyBST.java[MyBST~delete~QT;~QBSTNode;~QBSTNode;@replacement!3132!3164!3140!3150!QBSTNode;!0!false" name="prevReplacement" references="true" stamp="1642788457843" version="1.0"/>
+</session>

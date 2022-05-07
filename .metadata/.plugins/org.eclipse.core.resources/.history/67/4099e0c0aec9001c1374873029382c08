@@ -1,0 +1,53 @@
+public interface ReactiveAnimation extends Animation{
+	//public abstract void update(Monster monster);
+	//public abstract void update(Avatar avatar);
+}
+
+interface Animation {
+	
+}
+
+class ReactiveAnimation implements Animation{
+	private String[] images;
+	private int currentImage, speed, ticks;
+
+	public ReactiveAnimation(String[] images) {
+		this.images = images;
+	}
+	
+	public void setImages(String[] images) {
+		this.images = images;
+	}
+
+	public int currentImage() {
+		return currentImage;
+	}
+
+	public void setCurrentImage(int index) {
+		this.currentImage = index % images.length;
+	}
+
+	public void run(Monster monster) {
+		if (ticks < speed)
+			return;
+		ticks++;
+		update(monster);
+	}
+
+	public void run(Avatar avatar) {
+		if (ticks < speed)
+			return;
+		ticks++;
+		update(avatar);
+	}
+
+	@Override
+	public void update(Monster monster) {
+
+	}
+
+	@Override
+	public void update(Avatar avatar) {
+
+	}
+}

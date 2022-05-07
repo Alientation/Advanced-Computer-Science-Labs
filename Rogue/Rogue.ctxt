@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=game
+comment0.target=Rogue(Game)
+comment1.params=
+comment1.target=Site\ move()
+comment2.params=
+comment2.target=int[][]\ getMonsterDistanceMatrix()
+comment3.params=rogueLocation\ monsterLocation
+comment3.target=int\ scorePosition(Site,\ Site)
+comment4.params=
+comment4.target=Site\ simpleFartestPathMove()
+comment5.params=
+comment5.target=Site\ getLongestPathMove()
+comment6.params=
+comment6.target=Site\ getRandomValidMove()
+numComments=7

@@ -1,0 +1,61 @@
+public interface ReactiveAnimation extends Animation{
+	//future use Entity as super class
+	public abstract void update(Monster monster);
+	public abstract void update(Avatar avatar);
+}
+
+interface Animation {
+	//future use Entity as super class
+	public abstract void run(Monster monster);
+	public abstract void run(Avatar avatar);
+}
+
+class EntityAnimation implements Animation {
+	protected String[] images;
+	protected int currentImage, speed, ticks;
+	
+	public EntityAnimation(String[] images, int speed) {
+		this.images = images;
+		this.currentImage = 0;
+		this.speed = speed;
+		this.ticks = 0;
+	}
+	
+	public void setImages(String[] images) {
+		this.images = images;
+	}
+
+	public int currentImage() {
+		return currentImage;
+	}
+
+	public void setCurrentImage(int index) {
+		this.currentImage = index % images.length;
+	}
+	
+	@Override
+	public void run(Monster monster) {
+		ticks++;
+		if (ticks < speed)
+			return;
+		ticks = 0;
+		currentImage = (currentImage + 1) % images.length;
+		monster.draw();
+	}
+
+	@Override
+	public void run(Avatar avatar) {
+		ticks++;
+		if (ticks < speed)
+			return;
+		ticks = 0;
+		currentImage = (currentImage + 1) % images.length;
+		avatar.draw();
+	}
+}
+
+class MonsterAnimation extends EntityAnimation{
+	public MonsterAnimation(String[] images, int speed) {
+		super(images, speed);
+	}
+}

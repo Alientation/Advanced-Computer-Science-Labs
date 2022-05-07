@@ -1,0 +1,5 @@
+public interface Animation {
+	//future use Entity as super class
+	public abstract void run(Monster monster);
+	public abstract void run(Avatar avatar);
+}

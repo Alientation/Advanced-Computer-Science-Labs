@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=In()
+comment1.params=socket
+comment1.target=In(java.net.Socket)
+comment2.params=url
+comment2.target=In(java.net.URL)
+comment3.params=s
+comment3.target=In(java.lang.String)
+comment4.params=
+comment4.target=int\ readChar()
+comment5.params=
+comment5.target=java.lang.String\ readString()
+comment6.params=
+comment6.target=java.lang.String\ readLine()
+comment7.params=
+comment7.target=java.lang.String\ readAll()
+comment8.params=
+comment8.target=void\ close()
+comment9.params=args
+comment9.target=void\ main(java.lang.String[])
+numComments=10
