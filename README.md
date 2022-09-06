@@ -1,2 +1,2 @@
 # Advanced-Computer-Science-Labs
-compile of all my labs in adv cs 3
+compile of all my lab submissions for advanced cs 3
